@@ -16,10 +16,24 @@ namespace Presentation.Controllers
             _courseService = courseService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IEnumerable<Course> Get()
         {
             return _courseService.GetAll();
         }
+
+        [HttpGet("GetByName")]
+        public Course GetByName(string name)
+        {
+            return _courseService.GetByName(name);
+        }
+
+       
+
+
+        
+
+       
+
     }
 }

@@ -12,6 +12,7 @@ namespace Business
             _courseRepository = courseRepository;
         }
 
+       
 
         public IEnumerable<Course> GetAll() {
         
@@ -20,5 +21,15 @@ namespace Business
          //   course.ToList().ForEach(course => course.Name = course.Name.ToUpper());
             return course;
         }
+
+        
+
+        public Course GetByName(string name)
+        {
+
+            return _courseRepository.GetbyName(name);
+        }
+     
+
     }
 }

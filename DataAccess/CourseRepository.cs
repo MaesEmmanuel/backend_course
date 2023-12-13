@@ -15,10 +15,18 @@ namespace DataAccess
             return _db;
         }
 
+        public Course GetbyName(string name)
+        {
+         //  Course course   = _db.FirstOrDefault(c => c.Name.ToLower() == name.ToLower());
+         //   return  _db.FirstOrDefault(c => c.Name.ToLower() == name.ToLower());
+         return _db.FirstOrDefault(c => c.Name.ToLower() == name.ToLower()) as Course;
+        }
+
+
+
+            
+
     }
 
-    public interface ICourseRepository
-    {
-        IEnumerable<Course> GetAll();
-    }
+
 }
