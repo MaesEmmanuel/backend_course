@@ -69,3 +69,13 @@ C:\EPHEC\WEB2023\Backend_Course\Presentation\obj\Debug\net6.0\refint\Presentatio
 C:\EPHEC\WEB2023\Backend_Course\Presentation\obj\Debug\net6.0\Presentation.pdb
 C:\EPHEC\WEB2023\Backend_Course\Presentation\obj\Debug\net6.0\Presentation.genruntimeconfig.cache
 C:\EPHEC\WEB2023\Backend_Course\Presentation\obj\Debug\net6.0\ref\Presentation.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\EPHEC\WEB2023\Backend_Course\Presentation\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -10,7 +10,6 @@ namespace Business
       
         Course GetByName(string name);
 
-    //    Course GetById(int id);
-    //    Course AddCourse(Course course);
+       
     }
 }
