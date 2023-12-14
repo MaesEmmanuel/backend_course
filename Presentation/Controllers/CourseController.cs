@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class CourseController : ControllerBase
     {
@@ -16,7 +16,7 @@ namespace Presentation.Controllers
             _courseService = courseService;
         }
 
-        [HttpGet("GetAll")]
+        [HttpGet]
         public IEnumerable<Course> Get()
         {
             return _courseService.GetAll();
